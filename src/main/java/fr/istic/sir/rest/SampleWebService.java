@@ -52,14 +52,14 @@ return "Hello?How Are You?";
     public Home findById(@PathParam("id") String arg0) {
         return list_homes.get(Integer.parseInt(arg0));
     }
-    
+   /* 
     @GET
     @Produces({ javax.ws.rs.core.MediaType.APPLICATION_JSON })
     public Collection<Home> list() {
         return list_homes;
     }
     
-    
+    */
     
     
     @GET

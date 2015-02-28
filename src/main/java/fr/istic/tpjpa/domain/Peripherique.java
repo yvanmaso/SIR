@@ -19,6 +19,17 @@ public class Peripherique
 	
 	
 	private long id;
+	protected String cons;
+	public String getCons() {
+		return cons;
+	}
+
+
+	public void setCons(String cons) {
+		this.cons = cons;
+	}
+
+
 	public Peripherique() 
 	
 	{

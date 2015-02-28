@@ -9,31 +9,11 @@ public class ElectricDevice extends Peripherique
 
 {
 	
-	private String cons;
 	
 
-
-
-	public ElectricDevice(String cons) {
+	public ElectricDevice()
+	{
 		super();
-		this.cons = cons;
-	}
-
-
-	ElectricDevice() {
-		// TODO Auto-generated constructor stub
-	
-	}
-
-
-
-	public String getCons() {
-		return cons;
-	}
-
-
-	public void setCons(String cons) {
-		this.cons = cons;
 	}
 	
 	
